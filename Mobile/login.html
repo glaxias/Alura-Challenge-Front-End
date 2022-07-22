@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3000f8fcba.js" crossorigin="anonymous"></script>
+</head>
+<body class="corpo">
+    <header class="cabecalho">
+        <a href="#"><img src="./img/Casa.svg" alt="Página Inicial" class="cabecalho__imagem"></a>
+        <a href="#"><img src="./img/Mensagens.svg" alt="Caixa de Mensagens" class="cabecalho__imagem"></a>
+    </header>
+
+    <main class="conteudo">
+        <img src="./img/Logo-azul.svg" alt="logo AdoPet" class="logo">
+        <p class="conteudo__texto">Já tem conta? Faça seu login:</p>
+        
+        <form>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Insira seu email" class="input__texto" />
+            </div>
+
+            <div>
+                <label for="senha__confirmar">Senha</label>
+                <input type="password" name="senha__confirmar" id="senha__confirmar" placeholder="Insira sua senha" class="input__senha">
+                <!-- <i class="fa-solid fa-eye-slash"></i> -->
+            </div>
+
+            <a href="#" class="conteudo__link__senha">Esqueci minha senha</a>
+
+            <div>
+                <a href="#" class="conteudo__link">Entrar</a>
+            </div>
+        </form>
+    </main>
+    
+    <footer>
+        <p class="rodape">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

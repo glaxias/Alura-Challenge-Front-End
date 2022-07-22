@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="cadastro.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3000f8fcba.js" crossorigin="anonymous"></script>
+</head>
+<body class="corpo">
+    <header class="cabecalho">
+        <a href="#"><img src="./img/Casa.svg" alt="Página Inicial" class="cabecalho__imagem"></a>
+        <a href="#"><img src="./img/Mensagens.svg" alt="Caixa de Mensagens" class="cabecalho__imagem"></a>
+    </header>
+
+    <main class="conteudo">
+        <img src="./img/Logo-azul.svg" alt="logo AdoPet" class="logo">
+        <p class="conteudo__texto">Ainda não tem cadastro? Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        
+        <form>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Escolha seu melhor email" class="input__texto" />
+            </div>
+
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" class="input__texto" />
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Crie uma senha" class="input__texto" />
+                <img src="./img/olho.svg" class="olho">
+            </div>
+
+            <div>
+                <label for="senha__confirmar">Comfirma sua senha</label>
+                <input type="password" name="senha__confirmar" id="senha__confirmar" placeholder="Repita a senha criada acima" class="input__senha">
+                <!-- <i class="fa-solid fa-eye-slash"></i> -->
+            </div>
+
+            <div>
+                <a href="#" class="conteudo__link">Já tenho conta</a>
+            </div>
+        </form>
+    </main>
+    
+    <footer>
+        <p class="rodape">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem</title>
+
+    <link rel="stylesheet" href="mensagem.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="corpo">
+    <header class="cabecalho">
+        <a href="#"><img src="./img/Casa.svg" alt="Página Inicial" class="cabecalho__imagem"></a>
+        <a href="#"><img src="./img/Mensagens.svg" alt="Caixa de Mensagens" class="cabecalho__imagem"></a>
+    </header>
+
+    <main class="conteudo">
+        <p class="conteudo__texto">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+
+        <div class="campo">
+            <form>
+                <div>
+                    <label for="nome" class="input__titulo">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira seu nome completo" class="input__texto" />
+                </div>
+
+                <div>
+                    <label for="telefone" class="input__titulo">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Insira seu telefone e/ou whatsapp" pattern="[0-9] {2} [0-9] {4} - [0-9] {4}" class="input__texto">
+                </div>
+
+                <div>
+                    <label for="animal" class="input__titulo">Nome do animal</label>
+                    <input type="text" name="animal" id="animal" placeholder="Por qual animal você se interessou?" class="input__texto" />
+                </div>
+
+                <div>
+                    <label for="mensagem" class="input__titulo">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="" class="input__mensagem">Escreva sua mensagem. </textarea>
+                </div>
+
+                <div>
+                    <a href="#" class="conteudo__link">Enviar</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p class="rodape">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>
